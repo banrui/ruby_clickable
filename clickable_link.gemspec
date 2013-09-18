@@ -6,11 +6,11 @@ require 'clickable_link/version'
 Gem::Specification.new do |spec|
   spec.name          = "clickable_link"
   spec.version       = ClickableLink::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.authors       = ["Rui Bando"]
+  spec.email         = ["bando.rui@gmail.com"]
+  spec.description   = %q{clickable link lib}
+  spec.summary       = %q{clickable link lib}
+  spec.homepage      = "https://github.com/banrui/ruby_clickable"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec" 
 end
