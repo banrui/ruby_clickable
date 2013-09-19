@@ -1,6 +1,6 @@
 # ClickableLink
 
-TODO: Write a gem description
+clickable_link substitute string with link of html in text. Its link referred to as being <a> tag in html.
 
 ## Installation
 
@@ -18,7 +18,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+You can substitute string with <a> tag of html in text.
+
+    require 'clickable_link'
+    
+    ClickableLink.replace_to_uri(arg) 
+
+    # demo 
+    demo_str = "My homepage url is https://rubygems.org/gems/clickable_link !!"
+    clickable_str = ClickableLink.replace_to_uri(demo_str) 
+    p clickable_str #=> <a href="https://rubygems.org/gems/clickable_link" target="_blank">https://rubygems.org/gems/clickable_link</a> 
 
 ## Contributing
 
