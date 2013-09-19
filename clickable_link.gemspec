@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = ClickableLink::VERSION
   spec.authors       = ["Rui Bando"]
   spec.email         = ["bando.rui@gmail.com"]
-  spec.description   = %q{clickable link lib}
-  spec.summary       = %q{clickable link lib}
+  spec.description   = %q{clickable_link substitute string with link of html in text. Its link referred to as being <a> tag in html.}
+  spec.summary       = %q{clickable_link substitute string with link in text.}
   spec.homepage      = "https://github.com/banrui/ruby_clickable"
   spec.license       = "MIT"
 
